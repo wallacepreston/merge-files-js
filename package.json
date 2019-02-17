@@ -1,0 +1,17 @@
+{
+  "name": "merge-files",
+  "version": "1.0.0",
+  "description": "A simple program (or script, in bash) that reads in two text files, creates a third file, merges the first two into the third, and lists the output (content of the third file).",
+  
+  "scripts": {
+    "run": "sh merge.sh"
+  },
+  "author": "Preston Wallace",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    
+  }
+}
