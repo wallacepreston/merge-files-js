@@ -4,7 +4,8 @@
   "description": "A simple program (or script, in bash) that reads in two text files, creates a third file, merges the first two into the third, and lists the output (content of the third file).",
   
   "scripts": {
-    "start": "sh merge.sh",
+    "start": "node index.js",
+    "start-simple": "node simple.js",
     "restart": "rm -r 3.txt"
   },
   "author": "Preston Wallace",
