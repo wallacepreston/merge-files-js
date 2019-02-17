@@ -8,12 +8,14 @@ A simple program (or script, in bash) that reads in two text files, creates a th
 
 In this directory in bash, run the command:
 
-`sh merge.sh`
+`npm start`
 
-This will take the two files and create a third file, printing the output to the terminal. This simply concatenates the two into the third file.
+This will take the two files `1.txt` and `2.txt` and create a third file, `3.txt`, printing the content of the third file to the terminal. This simply concatenates the two into the third file.
 
 ## To Start Over
 
 In this directory in bash, run the command:
 
-`rm -r 3.txt`
+`npm run restart`
+
+This will delete the third file: `3.txt`
