@@ -23,3 +23,7 @@ Run the command:
 `npm restart`
 
 This will delete the third file: `3.txt`
+
+## Running on repl.it
+
+This code can be [run on repl.it here](https://repl.it/@wallacepreston/MergeFilesJs). 
