@@ -12,9 +12,9 @@ Run the command:
 
 This will take the two files `1.txt` and `2.txt` and create a third file, `3.txt`, printing the content of the third file to the terminal. This simply concatenates the two into the third file.
 
-To run the simpler version, which only logs the contents of the two files together (doesn't create a third file), run the command:
+To run the asynchronous version, which uses `fs.readFile()` instead of `fs.readFileSync()`, run the command:
 
-`npm run start-simple`
+`npm run start-async`
 
 ## To Start Over
 

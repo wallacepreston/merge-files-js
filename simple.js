@@ -1,31 +1,14 @@
-// use fileSystem
-const fs = require('fs');
-// call in the 2 files to read from
-const file1 = './1.txt';
-const file2 = './2.txt';
+// use filesystem
+const fs = require('fs')
 
-const readTwoWriteOne = (readFrom1, readFrom2) => {
-  let content = '';
-
-  fs.readFile(
-    readFrom1, 'utf-8', function(readErr, fileData) {
-      // error handling
-      if (readErr) throw readErr;
-      // concatenate the current file's data into our variable
-      content += fileData;
-    }
-  )
-
-  fs.readFile(
-    readFrom2, 'utf-8', function(readErr, fileData) {
-      // error handling
-      if (readErr) throw readErr;
-      // concatenate the current file's data into our variable
-      content += fileData;
-      // list the output
-      console.log(content);
-    }
-  )
+function readTwoWriteOne () {
+  // call in content of one file, saving it in 'content'
+  let content = fs.readFileSync('./1.txt', {encoding: 'utf-8'});
+  // concatenate contents of second file with the first.
+  content += fs.readFileSync('./2.txt', {encoding: 'utf-8'});
+  // write the contents to a third file.
+  fs.writeFileSync('./3.txt', content)
+  console.log(content)
 }
 
-readTwoWriteOne(file1, file2)
+readTwoWriteOne();
