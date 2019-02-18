@@ -27,5 +27,3 @@ This will delete the third file: `3.txt`
 ## Running on repl.it
 
 This code can be [run on repl.it here](https://repl.it/@wallacepreston/MergeFilesJs). 
-
-<iframe height="400px" width="100%" src="https://repl.it/@wallacepreston/MergeFilesJs?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
