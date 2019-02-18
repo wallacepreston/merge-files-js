@@ -1,4 +1,6 @@
+FIRST FILE TEXT
 SECOND FILE TEXT
 Line 2
+Line 3
 Line 3 different
 Line 4

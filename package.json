@@ -5,7 +5,8 @@
   
   "scripts": {
     "start": "node simple.js",
-    "start-async": "node async.js",
+    "async": "node async.js",
+    "lines": "node line-by-line.js",
     "restart": "node remove.js"
   },
   "author": "Preston Wallace",

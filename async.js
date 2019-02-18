@@ -26,7 +26,7 @@ const readTwoWriteOne = (readFrom1, readfrom2, writeTo) => {
           content += fileData;
           // increase the call count, to keep track of which step we're on
           callCount++;
-          // if we're finished reading the 2 files... 
+          // if we're finished reading the 2 files...
           if (callCount === 2) {
             // ...list the output...
             console.log(content);
@@ -43,6 +43,6 @@ const readTwoWriteOne = (readFrom1, readfrom2, writeTo) => {
   return content;
 }
 
-//call the function. 
+//call the function.
 readTwoWriteOne(file1, file2, file3);
 
